@@ -1,0 +1,387 @@
+
+
+<!DOCTYPE html>
+<html lang="en" color-mode=light>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> - Hexo</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  
+  <meta name="description" content="Java面向对象&#x2F;笔记 面向对象，更像是拿工...">
+  <meta name="author" content="Lee">
+  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
+  <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
+  
+    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
+    <meta rel="msapplication-TileColor" content="#000000">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  
+
+  
+    
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css" name="highlight-style" mode="light">
+
+      
+        
+        
+<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/solarized-dark.min.css" name="highlight-style" mode="dark">
+
+      
+  
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: false,
+      fancybox: true,
+      pjax: false,
+      loading: {
+        gif: '/images/theme/loading.gif',
+        lottie: ''
+      },
+      lazyload: {
+        enable: true,
+        only_post: 'false',
+        loading: {
+          gif: '/images/theme/loading.gif',
+          lottie: ''
+        }
+      },
+      donate: {
+        enable: true,
+        alipay: '/images/theme/alipay.jpg',
+        wechat: '/images/theme/wechat.jpg'
+      },
+      galleries: {
+        enable: true
+      },
+      fab: {
+        enable: true,
+        always_show: false
+      },
+      carrier: {
+        enable: true
+      },
+      daovoice: {
+        enable: false
+      },
+      preview: {
+        background: {
+          default: '',
+          api: ''
+        },
+        motto: {
+          default: '我在开了灯的床头下，想问问自己的心啊。',
+          typing: true,
+          api: 'https://v2.jinrishici.com/one.json',
+          data_contents: '["data","content"]'
+        },
+      },
+      qrcode: {
+        enable: true,
+        type: 'url',
+        image: '/images/theme/wechat.jpg',
+      },
+      toc: {
+        enable: true
+      },
+      scrollbar: {
+        type: 'default'
+      },
+      notification: {
+        enable: false,
+        delay: 4500,
+        list: '',
+        page_white_list: '',
+        page_black_list: ''
+      },
+      search: {
+        enable: false,
+        path: ''
+      }
+    }
+  </script>
+
+  
+
+  
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="lock-screen">
+  <div class="loading" id="loading"></div>
+  
+    
+
+
+  
+  
+
+<nav class="menu">
+  <div class="menu-container">
+    <div class="menu-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <ul class="menu-content"><li class="menu-item">
+        <a href="/ " class="underline "> 首页</a>
+      </li><li class="menu-item">
+        <a href="/galleries/ " class="underline "> 摄影</a>
+      </li><li class="menu-item">
+        <a href="/archives/ " class="underline "> 归档</a>
+      </li><li class="menu-item">
+        <a href="/tags/ " class="underline "> 标签</a>
+      </li><li class="menu-item">
+        <a href="/categories/ " class="underline "> 分类</a>
+      </li><li class="menu-item">
+        <a href="/about/ " class="underline "> 关于</a>
+      </li></ul>
+    
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    
+  </div>
+</nav>
+  <main id="main">
+  <div class="article-wrap">
+    <div class="row container">
+      <div class="col-xl-3"></div>
+      <div class="col-xl-6"><article class="article">
+  <div class="wrap">
+    <section class="head">
+  <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
+  <div class="head-mask">
+    <h1 class="head-title"></h1>
+    <div class="head-info">
+      <span class="post-info-item"><i class="iconfont iconcalendar"></i>December 08, 2022</span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>4306</span>
+    </div>
+  </div>
+</section>
+    <section class="main">
+      <section class="content">
+        
+        <h1 id="Java面向对象-x2F-笔记"><a href="#Java面向对象-x2F-笔记" class="headerlink" title="Java面向对象&#x2F;笔记"></a>Java面向对象&#x2F;笔记</h1><p> 面向对象，更像是拿工具(打包好的方法)做事(实现目的)；</p>
+<h6 id="1-调用已有对象使用"><a href="#1-调用已有对象使用" class="headerlink" title="1.调用已有对象使用"></a>1.调用已有对象使用</h6><h6 id="2-自己设计对象使用"><a href="#2-自己设计对象使用" class="headerlink" title="2.自己设计对象使用"></a>2.自己设计对象使用</h6><h3 id="类和对象"><a href="#类和对象" class="headerlink" title="类和对象"></a>类和对象</h3><h4 id="类"><a href="#类" class="headerlink" title="类"></a>类</h4><p>类，联系中文意思，类别；确实类似。<br><strong>类是对象的共通特征的描述</strong>，一些对象有共同的特征，可以粗略的划分到一<em>类</em>里，这里的类， 就类似这个意思和作用。</p>
+<p>定义类：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">People</span>(类名/大驼峰命名)&#123;<br>	String gender;<br>	<span class="hljs-type">int</span> height;<br>	<span class="hljs-comment">//成员变量;    属性(通常名词  例如 性别 型号 价格 品牌 等)</span><br>	<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">jump</span><span class="hljs-params">()</span>&#123;<br>        System.out.println(<span class="hljs-string">&quot;跳了一下&quot;</span>);<br>    &#125;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">run</span><span class="hljs-params">()</span>&#123;<br>        System.out.println(<span class="hljs-string">&quot;速run！&quot;</span>);<br>    &#125;<br>	<span class="hljs-comment">//成员方法;	   行为(通常动词  例如 走路 打电话 吃饭 跳 等)</span><br>	……<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>调用类：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">PeopleTest</span>&#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        <span class="hljs-type">People</span> <span class="hljs-variable">p1</span>  <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">People</span>();  <span class="hljs-comment">//类名 对象名 = new 类名();  	p1就是我创建的对象的名</span><br>        p1.gender = <span class="hljs-string">&quot;男&quot;</span>;		<span class="hljs-comment">//给创建的对象p1的属性gender赋值</span><br>        p1.height = <span class="hljs-number">180</span>;		<span class="hljs-comment">//同上</span><br><br>        <span class="hljs-type">People</span> <span class="hljs-variable">p2</span>  <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">People</span>();	<span class="hljs-comment">//这里p2是我创建的对象的名</span><br>        p2.gender = <span class="hljs-string">&quot;女&quot;</span>;<br>        p2.height = <span class="hljs-number">165</span>;	<br><br>        System.out.print(p1.height + <span class="hljs-string">&quot;的&quot;</span> + p1.gender);<br>        p1.jump();		<span class="hljs-comment">//调用对象p1的jump方法</span><br>        System.out.print(p2.height + <span class="hljs-string">&quot;的&quot;</span> + p2.gender);<br>        p2.run();		<span class="hljs-comment">//调用对象p2的run方法</span><br>	&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h3><p>面向对象的三大特征之一（封装、继承、多态）</p>
+<p>人调用物 → 物内封装有关物的行为 → 人调用行为<br>我踢球 ，球类封装球’向前滚动’这个状态 我踢球 → 球向前滚动；我调用的是球这个类 里的踢，球向前滚动是球的状态，球的状态要封装的球类中</p>
+<p>其实类似的 </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-type">String</span> <span class="hljs-variable">s</span>  <span class="hljs-operator">=</span> <span class="hljs-string">&quot;abc&quot;</span>;<br>s.length();<br></code></pre></td></tr></table></figure>
+
+<p>也就是调用了String类里的length()方法。</p>
+<h3 id="private关键字"><a href="#private关键字" class="headerlink" title="private关键字"></a>private关键字</h3><p>权限修饰符，可以修饰成员变量(名词)也可以修饰成员方法(动词)；被private修饰的成员只能在本类中才能访问；</p>
+<p>private修饰的成员变量不能直接调用赋值了；</p>
+<p>定义类：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">People</span>&#123;<br>	<span class="hljs-keyword">private</span> String gender;<br>    <span class="hljs-comment">//私有后 外部不能调用赋值  所以 需要创建 set和get方法，并定义规则;</span><br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">setGender</span><span class="hljs-params">(String s)</span>&#123;<br>        <span class="hljs-comment">//void 无返回值;</span><br>        <span class="hljs-comment">//因为要赋值 所以肯定有参 所以（String s）</span><br>        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;男&quot;</span> || s == <span class="hljs-string">&quot;女&quot;</span>)&#123;<br>            gender = s;<br>        &#125;<span class="hljs-keyword">else</span>&#123;<br>            System.out.println(<span class="hljs-string">&quot;输入性别有误！&quot;</span>);<br>        &#125;<br>    &#125;<br>    <br>    <span class="hljs-keyword">public</span> String <span class="hljs-title function_">getGender</span><span class="hljs-params">()</span>&#123;<br>        <span class="hljs-comment">//要获取性别 所以有返回值 所以是String  无参</span><br>        <span class="hljs-keyword">return</span> gender;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>调用类：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">PeopleTest</span>&#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        <span class="hljs-type">People</span> <span class="hljs-variable">p1</span>  <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">People</span>();  <br>        <br>        <span class="hljs-comment">//p1.gender = &quot;男&quot;;</span><br>        <span class="hljs-comment">//因为gengder在类中被private定义，所以如果直接调用gender赋值会 报错</span><br>        <br>        p1.setGender(<span class="hljs-string">&quot;男&quot;</span>);<br>        <span class="hljs-comment">//类中定义了setGender方法，所以可以调用setGender()方法给p1的gender属性赋值</span><br>		System.out.println(p1.getGender());<br>        <span class="hljs-comment">//调用getGender()方法 获取p1的gender属性;</span><br>        <span class="hljs-type">People</span> <span class="hljs-variable">p2</span>  <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">People</span>();	<br>		p2.setGender(<span class="hljs-string">&quot;其他&quot;</span>);<br>        <span class="hljs-comment">//如果赋值错误会赋值失败 并提示 </span><br>        <br>        <span class="hljs-comment">//这也是privata关键字的好处之一</span><br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h3><p>如果不主动写任何构造方法，那么默认会生成一个空参构造；<br>如果定义了构造方法，就不会生成默认的无参构造，如果写了有参但不手动写无参，就只能调用有参构造。<br>有参构造是在创建对象时就直接赋值，就不用一个一个调用set方法赋值。<br><strong>一般类中 空参构造 有参构造都要写，应对不同使用场景。</strong></p>
+<p>定义类：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">People</span>&#123;<br> 	<span class="hljs-keyword">private</span> String gender;<br>    <span class="hljs-keyword">private</span> <span class="hljs-type">int</span> age;<br>    <br>    <span class="hljs-keyword">public</span> <span class="hljs-title function_">People</span><span class="hljs-params">()</span>&#123;<br>        <br>    &#125;<br>    <span class="hljs-comment">//如果不手动写 这种空参构造系统会默认生成</span><br>    <br>    <span class="hljs-keyword">public</span> <span class="hljs-title function_">People</span><span class="hljs-params">(String s,<span class="hljs-type">int</span> a)</span>&#123;<br>        gender = s;<br>        age = a;<br>    &#125;<br>    <span class="hljs-comment">//有参构造，创建对象时 就会给gender 和 age 赋值；</span><br>    <br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">setGender</span><span class="hljs-params">(String s)</span>&#123;<br>        <span class="hljs-keyword">if</span>(s == <span class="hljs-string">&quot;男&quot;</span> || s == <span class="hljs-string">&quot;女&quot;</span>)&#123;<br>            gender = s;<br>        &#125;<span class="hljs-keyword">else</span>&#123;<br>            System.out.println(<span class="hljs-string">&quot;输入性别有误！&quot;</span>);<br>        &#125;<br>    &#125;<br>    <br>    <span class="hljs-keyword">public</span> String <span class="hljs-title function_">getGender</span><span class="hljs-params">()</span>&#123;<br>        <span class="hljs-keyword">return</span> gender;<br>    &#125;<br><br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">setAge</span><span class="hljs-params">(<span class="hljs-type">int</span> a)</span>&#123;<br>        <span class="hljs-keyword">if</span>(a &gt; <span class="hljs-number">0</span> &amp;&amp; a &lt; <span class="hljs-number">120</span>)&#123;<br>            age = a;<br>        &#125;<span class="hljs-keyword">else</span>&#123;<br>            System.out.println(<span class="hljs-string">&quot;这年龄是不是有点问题？&quot;</span>);<br>        &#125;<br>    &#125;<br>    <br>    <span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">getAge</span><span class="hljs-params">()</span>&#123;<br>        <span class="hljs-keyword">return</span> age;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>调用类:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">PeopleTest</span>&#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        <span class="hljs-type">People</span> <span class="hljs-variable">p1</span>  <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">People</span>();  <br>        <span class="hljs-comment">//空参构造了p1，属性值都是默认；</span><br>		p1.setGender(<span class="hljs-string">&quot;男&quot;</span>);<br>        p1.setAge(<span class="hljs-number">18</span>);<br>        <span class="hljs-comment">//手动调用set方法赋值</span><br>        <br>        <span class="hljs-type">People</span> <span class="hljs-variable">p2</span>  <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">People</span>(<span class="hljs-string">&quot;女&quot;</span>,<span class="hljs-number">18</span>);	<br>		<span class="hljs-comment">//有参构造p2，构造时就给赋值了</span><br>        <span class="hljs-comment">//需要注意的是，有参构造在这是没有验证数据合法性的，-18也能赋值到age里。</span><br>        System.out.println(p1.getGender()+<span class="hljs-string">&quot;,&quot;</span>+p1.getAge());<br>        System.out.println(p2.getGender()+<span class="hljs-string">&quot;,&quot;</span>+p2.getAge());<br>   <br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h6 id="构造方法的重载："><a href="#构造方法的重载：" class="headerlink" title="构造方法的重载："></a>构造方法的重载：</h6><p>带参构造方法和无参构造，两者方法名相同，但是参数不同，这叫做构造方法的重载。</p>
+<p><strong>一般类中 空参构造 有参构造都要写，应对不同使用场景。</strong></p>
+<h3 id="标准JavaBean"><a href="#标准JavaBean" class="headerlink" title="标准JavaBean"></a>标准JavaBean</h3><p>我觉得不用过分笔墨，几条原则 :</p>
+<p>类名 驼峰命名<br>所有成员变量都是用private修饰<br>提供无参构造方法，也提供带全参的构造方法<br>给每一个成员变量设定对应的get()&#x2F;set()方法</p>
+<p>idea一键标准JavaBean  :  FIle - Settings - Plugins - Marketplace - 搜索ptg - installed - 定义好成员变量后直接右键 Ptg to JavaBean.</p>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3>
+      </section>
+      <section class="extra">
+        
+          <ul class="copyright">
+  
+    <li><strong>本文作者：</strong>Lee</li>
+    <li><strong>本文链接：</strong><a href="http://example.com/2022/12/08/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%AC%94%E8%AE%B0/index.html" title="http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;12&#x2F;08&#x2F;Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%AC%94%E8%AE%B0&#x2F;index.html">http:&#x2F;&#x2F;example.com&#x2F;2022&#x2F;12&#x2F;08&#x2F;Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%AC%94%E8%AE%B0&#x2F;index.html</a></li>
+    <li><strong>版权声明：</strong>本博客所有文章均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" title="BY-NC-SA" target="_blank" rel="noopener">BY-NC-SA</a> 许可协议，转载请注明出处！</li>
+  
+</ul>
+        
+        
+          <section class="donate">
+  <div id="qrcode-donate">
+    <img   class="lazyload" data-original="/images/theme/alipay.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
+  </div>
+  <div class="icon">
+    <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
+    <a href="javascript:;" id="wechat"><i class="iconfont iconwechat-fill"></i></a>
+  </div>
+</section>
+        
+        
+        
+  <nav class="nav">
+    <a></a>
+    <a href="/2022/11/11/hello-world/">Hello World<i class="iconfont iconright"></i></a>
+  </nav>
+
+      </section>
+      
+    </section>
+  </div>
+</article></div>
+      <div class="col-xl-3">
+        
+          
+  <aside class="toc-wrap">
+    <h3 class="toc-title">文章目录：</h3>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-x2F-%E7%AC%94%E8%AE%B0"><span class="toc-text">Java面向对象&#x2F;笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1"><span class="toc-text">类和对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%81%E8%A3%85"><span class="toc-text">封装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#private%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-text">private关键字</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="toc-text">构造方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%87%E5%87%86JavaBean"><span class="toc-text">标准JavaBean</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-text"></span></a></li></ol></li></ol></li></ol>
+  </aside>
+
+        
+      </div>
+    </div>
+  </div>
+</main>
+  
+
+<footer class="footer">
+  <div class="footer-social"><a 
+        href="tencent://message/?Menu=yes&uin=602972881 "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#12B7F5'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconQQ "></i>
+      </a><a 
+        href="https://www.instagram.com/leeleeleeer/ "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#DA2E76'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconinstagram "></i>
+      </a><a 
+        href="https://github.com/Lee-living "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color= '#9f7be1'" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  icongithub-fill "></i>
+      </a><a 
+        href="mailto:leeliveing@gmail.com "
+        target="_blank"
+        class="footer-social-item"
+        onMouseOver="this.style.color=#FF3B00" 
+        onMouseOut="this.style.color='#33333D'">
+          <i class="iconfont  iconmail"></i>
+      </a></div>
+  
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+  
+</footer>
+  
+      <div class="fab fab-plus">
+    <i class="iconfont iconplus"></i>
+  </div>
+  
+  
+  
+  <div class="fab fab-up">
+    <i class="iconfont iconcaret-up"></i>
+  </div>
+  
+  
+  
+    
+<script src="/js/color-mode.js"></script>
+
+  
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+  <script>
+    (function () {
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
